@@ -1,4 +1,4 @@
-using D8_HospitalManagementSystem;
+using ASP_.NET__Projects.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASP_.NET__Projects.Controllers;
@@ -9,49 +9,51 @@ namespace ASP_.NET__Projects.Controllers;
 public class HospitalController : ControllerBase
 {
     private readonly ILogger<HospitalController> _logger;
+    private readonly HospitalService _hospitalService;
+
+    // Controller -> Service -> Repository -> (Database)
     
-    public HospitalController(ILogger<HospitalController> logger)
+    public HospitalController(ILogger<HospitalController> logger, HospitalService hospitalService)
     {
+        _hospitalService = hospitalService;
         _logger = logger;
     }
     
-    private static List<Hospital> Hospitals = new List<Hospital>();
-    
     [HttpPost(Name = "Hospital")]
-    public IActionResult AddHospital([FromBody] Hospital hospital)
+    public IActionResult AddHospital([FromBody] string hospitalName)
     {
-        Hospitals.Add(hospital);
-        return Ok();
+        _hospitalService.AddHospital(hospitalName);
+        return Ok("Success");
     }
     
     [HttpGet]
     public IActionResult GetHospital(string hospitalName)
     {
-        var hospital = Hospitals.FirstOrDefault(h => h.Name == hospitalName);
+        var hospital = _hospitalService.GetHospital(hospitalName);
         if (hospital == null)
         {
             return NotFound();
         }
         return Ok(hospital);
     }
-
-    private List<IEmployee> Employees = new List<IEmployee>();
-
-    [HttpPost(Name = "Employee")]
-    public IActionResult AddEmployee([FromForm] IEmployee employee)
-    {
-        Employees.Add(employee);
-        return Ok();
-    }
-    
-    [HttpGet]
-    public IActionResult ShowEmployees()
-    {
-        if (Employees == null)
-        {
-            return NotFound();
-        }
-        return Ok(Employees);
-    }
+    //
+    // private List<IEmployee> Employees = new List<IEmployee>();
+    //
+    // [HttpPost(Name = "Employee")]
+    // public IActionResult AddEmployee([FromForm] IEmployee employee)
+    // {
+    //     Employees.Add(employee);
+    //     return Ok();
+    // }
+    //
+    // [HttpGet]
+    // public IActionResult ShowEmployees()
+    // {
+    //     if (Employees == null)
+    //     {
+    //         return NotFound();
+    //     }
+    //     return Ok(Employees);
+    // }
 
 }
