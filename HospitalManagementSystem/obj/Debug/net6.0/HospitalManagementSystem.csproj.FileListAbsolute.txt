@@ -25,3 +25,30 @@ C:\Users\Haydar\RiderProjects\ASP .NET  Projects\HospitalManagementSystem\obj\De
 C:\Users\Haydar\RiderProjects\ASP .NET  Projects\HospitalManagementSystem\obj\Debug\net6.0\ref\HospitalManagementSystem.dll
 C:\Users\Haydar\RiderProjects\ASP .NET  Projects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.pdb
 C:\Users\Haydar\RiderProjects\ASP .NET  Projects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.genruntimeconfig.cache
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\appsettings.json
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\HospitalManagementSystem.exe
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\HospitalManagementSystem.deps.json
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\HospitalManagementSystem.runtimeconfig.json
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\HospitalManagementSystem.dll
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\ref\HospitalManagementSystem.dll
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\HospitalManagementSystem.pdb
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.AssemblyInfo.cs
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\scopedcss\bundle\HospitalManagementSystem.styles.css
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.csproj.CopyComplete
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.dll
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\ref\HospitalManagementSystem.dll
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.pdb
+C:\Users\Haydar\RiderProjects\ASP.NetProjects\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.genruntimeconfig.cache
