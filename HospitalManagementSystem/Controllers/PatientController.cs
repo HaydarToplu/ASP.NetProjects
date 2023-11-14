@@ -13,13 +13,13 @@ public class PatientController : ControllerBase
     {
         _logger = logger;
     }
-    private List<Patient> Patients = new List<Patient>();
+    public List<Patient> Patients = new List<Patient>();
 
     [HttpPost( "Patient")]
     public IActionResult AddPatient([FromForm] Patient patient)
     {
         Patients.Add(patient);
-        return Ok();
+        return Ok("Başarılı");
     }
 
     [HttpGet("Patient")]

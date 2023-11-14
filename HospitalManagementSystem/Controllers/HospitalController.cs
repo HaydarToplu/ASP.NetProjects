@@ -1,4 +1,5 @@
 using ASP_.NET__Projects.Services;
+using D8_HospitalManagementSystem;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASP_.NET__Projects.Controllers;
@@ -20,7 +21,7 @@ public class HospitalController : ControllerBase
     }
     
     [HttpPost(Name = "Hospital")]
-    public IActionResult AddHospital([FromBody] string hospitalName)
+    public IActionResult AddHospital([FromForm] string hospitalName)
     {
         _hospitalService.AddHospital(hospitalName);
         return Ok("Success");
@@ -36,24 +37,25 @@ public class HospitalController : ControllerBase
         }
         return Ok(hospital);
     }
-    //
-    // private List<IEmployee> Employees = new List<IEmployee>();
-    //
-    // [HttpPost(Name = "Employee")]
-    // public IActionResult AddEmployee([FromForm] IEmployee employee)
-    // {
-    //     Employees.Add(employee);
-    //     return Ok();
-    // }
-    //
-    // [HttpGet]
-    // public IActionResult ShowEmployees()
-    // {
-    //     if (Employees == null)
-    //     {
-    //         return NotFound();
-    //     }
-    //     return Ok(Employees);
-    // }
+   
+     
+    
+    [HttpPost(Name = "Employee")]
+    public IActionResult AddEmployee([FromBody] Doctor employee)
+    {
+        _hospitalService.AddEmployee(employee);
+        return Ok("Success");
+    }
+    
+    [HttpGet("{employeeName}")]
+     public IActionResult ShowEmployees([FromRoute] string employeeName)
+     {
+         var employee = _hospitalService.ShowEmployees(employeeName);
+         if (employee == null)
+         {
+             return NotFound("Employee Not Found !");
+         }
+         return Ok(employee);
+     }
 
 }
